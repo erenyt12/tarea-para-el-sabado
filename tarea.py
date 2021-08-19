@@ -51,7 +51,8 @@ print('''Menú
      3- Calcular el área de un círculo
      4- Agregar número a la lista y        mostrar los números distintos
      5- Agregar usuario y DNI 
-     6- Buscar usuario por nombre e imprimir su DNI''')
+     6- Buscar usuario por nombre e imprimir su DNI
+     7- Salir del sistema''')
 
    
 
