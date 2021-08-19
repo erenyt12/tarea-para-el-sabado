@@ -1,6 +1,6 @@
 mi_lista = []
 
-#print(type(mi_lista))
+print(type(mi_lista))
 
 ciudad_1= input("ingrese la primer ciudad: ")
 ciudad_2 = input("ingrese la segunda ciudad: ")
@@ -84,8 +84,10 @@ while continuar:
             else:
                 print("este usuario no se encuentra en el sistema, intente nuevamente ")
                 buscar_usuario = input("ingrese el usuario que quiere buscar: ")
+    elif opcion == '7':
+            print("saliendo del sistema...\n ")
             
     else:
-        print("opcion incorrecta, saliendo del sistema...\n")
+        print("opcion incorrecta")
 
         continuar = False
